@@ -1,0 +1,47 @@
+name: p_2nd_market
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI
+  cupertino_icons: ^1.0.8
+
+  # Firebase core & services
+  firebase_core: ^3.6.0      # 파이어베이스 핵심 심장
+  firebase_auth: ^5.3.1      # 로그인 기능
+  cloud_firestore: ^5.4.4    # 데이터베이스
+  firebase_storage: ^12.3.0  # 이미지 저장소
+  get: ^4.6.6                # 상태 관리
+
+  # Google Sign-In (구글 로그인용)
+  google_sign_in: ^6.2.1
+
+  # 위치정보
+  geolocator: ^11.0.0
+  geocoding: ^2.2.0
+  # 이미지 업로드
+  image_picker: ^1.0.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  # assets:  # 필요한 경우 주석 해제하고 이미지 경로 추가
+  #   - assets/images/
+
+  # fonts:  # 커스텀 폰트 사용하는 경우 예시 참고해서 등록
+  #   - family: CustomFont
+  #     fonts:
+  #       - asset: fonts/CustomFont-Regular.ttf
