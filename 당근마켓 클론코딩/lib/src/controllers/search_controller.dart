@@ -24,9 +24,8 @@ class SearchController extends GetxController {
     // 실제로는 SharedPreferences 등에서 불러옴
     recentSearches.value = [
       '아이폰',
-      '맥북',
-      '에어팟',
-      '애플워치',
+      '인형',
+      '코트',
       '아이패드',
     ];
   }

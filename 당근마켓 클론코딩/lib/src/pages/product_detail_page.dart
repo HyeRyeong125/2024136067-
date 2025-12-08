@@ -272,7 +272,7 @@ class ProductDetailPage extends GetView<ProductDetailController> {
           ),
           SizedBox(height: 12),
           Text(
-            '깨끗하게 사용한 제품입니다.\n직거래 가능하고, 택배 거래도 가능합니다.\n궁금한 점 있으시면 편하게 연락주세요!',
+            '깨끗하게 사용한 제품입니다.\n직거래, 택배 거래 가능합니다.',
             style: TextStyle(
               fontSize: 15,
               color: Colors.white,
@@ -302,9 +302,8 @@ class ProductDetailPage extends GetView<ProductDetailController> {
                       controller.isLiked.value
                           ? Icons.favorite
                           : Icons.favorite_border,
-                      color: controller.isLiked.value
-                          ? Colors.red
-                          : Colors.white,
+                      color:
+                          controller.isLiked.value ? Colors.red : Colors.white,
                       size: 28,
                     ),
                     onPressed: controller.toggleLike,
