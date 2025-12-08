@@ -24,7 +24,7 @@ class ProductListController extends GetxController {
         timeAgo: '1분 전',
         imagePath: 'assets/images/Blazer.png',
         likeCount: 1,
-        chatCount: 0,
+        chatCount: 1,
       ),
       const Product(
         id: '2',
